@@ -1,0 +1,53 @@
+﻿name: Deploy Vue.js site to Pages
+
+on:
+  push:
+    branches: [vue_src]  # Trigger on push to vue_src branch
+  workflow_dispatch:     # Allow manual trigger
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout vue_src branch
+        uses: actions/checkout@v4
+        with:
+          ref: vue_src
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Save build output
+        run: |
+          mv dist /tmp/dist
+
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          clean: true
+
+      - name: Copy build files and commit
+        run: |
+          cp -r /tmp/dist/* .  # Copy build files
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "Deploy site from vue_src branch - $(date '+%Y-%m-%d %H:%M:%S')"
+          git push
