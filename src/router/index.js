@@ -24,6 +24,13 @@ const router = createRouter({
         window.location.href = "https://github.com/RobMink/BabyBeltPro";
       },
     },
+    {
+      path: "/heyjohnlookatthis",
+      name: "HEY JOHN LOOK AT THIS",
+      beforeEnter() {
+        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+      },
+    },
   ],
 })
 
