@@ -1,9 +1,10 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <div>
+    <h1>Welcome to BabyBelt.Pro!</h1>
+    <br/><br/>
+    This site is a work in progress...
+  </div>
 </template>
