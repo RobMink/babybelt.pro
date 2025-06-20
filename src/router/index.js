@@ -90,7 +90,7 @@ const router = createRouter({
       path: "/west3d-kit",
       name: "Buy a kit from West3D!",
       beforeEnter() {
-        window.location.href = "";
+        window.location.href = "https://west3d.com/products/baby-belt-pro-v2-5-complete-diy-belt-printer-kit-by-ldo-systems-and-west3d";
       },
     },
     {
