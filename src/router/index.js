@@ -80,6 +80,20 @@ const router = createRouter({
       },
     },
     {
+      path: "/fabreeko-kit",
+      name: "Buy a kit!",
+      beforeEnter() {
+        window.location.href = "https://www.fabreeko.com/products/baby-belt-pro-kit-by-honeybadger";
+      },
+    },
+    {
+      path: "/west3d-kit",
+      name: "Buy a kit!",
+      beforeEnter() {
+        window.location.href = "";
+      },
+    },
+    {
       path: "/print",
       name: "STL Files to print your own Baby Belt Pro!",
       beforeEnter() {
