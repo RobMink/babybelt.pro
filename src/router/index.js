@@ -81,14 +81,14 @@ const router = createRouter({
     },
     {
       path: "/fabreeko-kit",
-      name: "Buy a kit!",
+      name: "Buy a kit from Fabreeko!",
       beforeEnter() {
         window.location.href = "https://www.fabreeko.com/products/baby-belt-pro-kit-by-honeybadger";
       },
     },
     {
       path: "/west3d-kit",
-      name: "Buy a kit!",
+      name: "Buy a kit from West3D!",
       beforeEnter() {
         window.location.href = "";
       },
