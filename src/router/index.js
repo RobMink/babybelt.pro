@@ -45,6 +45,13 @@ const router = createRouter({
       },
     },
     {
+      path: "/crooked-crow",
+      name: "Crooked Crow Github Repo",
+      beforeEnter() {
+        window.location.href = "https://github.com/RobMink/CrookedCrow";
+      },
+    },
+    {
       path: "/discord",
       name: "Link to Join the Baby Belt Discord",
       beforeEnter() {
