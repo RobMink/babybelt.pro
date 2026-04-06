@@ -50,6 +50,7 @@
   {
     "label": "Crooked Crow",
     "path": "/crooked-crow",
-    "icon": "🐦"
+    "icon": "🐦",
+    "iconImage": "crookedcrow-circle.svg"
   }
 ]

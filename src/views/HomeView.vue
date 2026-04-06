@@ -2,9 +2,7 @@
 import links from '../data/links.json'
 
 function resolveIcon(iconImage) {
-  // Vite requires dynamic imports to use a string literal with a glob-friendly base path.
-  // We import all PNGs from assets/icons at build time and look up by filename.
-  const icons = import.meta.glob('../assets/icons/*.png', { eager: true, query: '?url', import: 'default' })
+  const icons = import.meta.glob('../assets/icons/*.{png,svg}', { eager: true, query: '?url', import: 'default' })
   return icons[`../assets/icons/${iconImage}`] ?? null
 }
 </script>
@@ -13,11 +11,13 @@ function resolveIcon(iconImage) {
   <div class="linktree">
     <div class="card">
       <div class="logo-wrapper">
-        <img src="../assets/logo.svg" alt="BabyBelt.Pro Logo" class="logo" />
+        <img src="../assets/logo.svg" alt="Printcepts Logo" class="logo" />
       </div>
 
-      <h1 class="title">BabyBelt.Pro</h1>
-      <p class="subtitle">The Baby Belt Pro 3D Printer</p>
+      <h1 class="title">Welcome to Printcepts Link Hub!</h1>
+      <p class="subtitle">We're known for the crazy Baby Belt Pro 3D Printer! Here are links to help you find what you are looking for.
+        <br/><br/>You can also find information on the crooked crow (WIP)
+      </p>
 
       <nav class="links">
         <a

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="-2.103 0 101.697 101.697"
+   height="101.697"
+   width="101.697"
+   data-type="ugc"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="crookedcrow-circle.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="11.475265"
+     inkscape:cx="50.848499"
+     inkscape:cy="50.848499"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg11" />
+  <defs
+     id="defs6">
+    <linearGradient
+       id="ffae8d36-d2c0-4811-839a-49e1c5d68587">
+      <stop
+         offset="0"
+         stop-color="#515151"
+         id="stop1" />
+      <stop
+         offset="1"
+         stop-color="#353535"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       id="91fd2788-9a19-4ef7-926b-9a1b59794ec9">
+      <stop
+         offset="0"
+         stop-color="#515151"
+         id="stop3" />
+      <stop
+         offset="1"
+         stop-color="#353535"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="b425a8b2-b6ce-4a2c-bf8e-aae6c3080a2a">
+      <stop
+         offset="0"
+         stop-color="#313131"
+         id="stop5" />
+      <stop
+         offset="1"
+         stop-color="#5b5b5b"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="translate(.14)"
+       gradientUnits="userSpaceOnUse"
+       y2="112.234"
+       x2="48.935"
+       y1="77.189"
+       x1="29.2"
+       id="26432b07-fc05-4ca9-8753-2f6e1916a99b"
+       xlink:href="#b425a8b2-b6ce-4a2c-bf8e-aae6c3080a2a" />
+    <linearGradient
+       gradientTransform="translate(.14)"
+       gradientUnits="userSpaceOnUse"
+       y2="71.352"
+       x2="59.838"
+       y1="68.285"
+       x1="47.334"
+       id="cf0d4113-0ad1-4680-9e82-ec4f906e07ce"
+       xlink:href="#91fd2788-9a19-4ef7-926b-9a1b59794ec9" />
+    <linearGradient
+       gradientTransform="translate(.14)"
+       gradientUnits="userSpaceOnUse"
+       y2="89.269"
+       x2="11.099"
+       y1="101.067"
+       x1="7.675"
+       id="baaa91ef-de13-49cd-b54e-8c0c73393aef"
+       xlink:href="#ffae8d36-d2c0-4811-839a-49e1c5d68587" />
+  </defs>
+  <path
+     fill="#111111"
+     d="M83.387 30.849c11.046 19.13 4.49 43.595-14.641 54.64S25.15 89.98 14.105 70.85s-4.49-43.596 14.641-54.641 43.596-4.49 54.641 14.64z"
+     id="path6"
+     inkscape:label="Circle" />
+  <path
+     d="M7.816 100.979a6 6 0 0 0 7.348-4.242 6 6 0 0 0-4.243-7.349Z"
+     fill="url(#baaa91ef-de13-49cd-b54e-8c0c73393aef)"
+     transform="translate(10.913 -42.708)"
+     id="path7"
+     inkscape:label="left eye grey" />
+  <path
+     d="M21.834 46.68a6 6 0 0 0-7.348 4.242 6 6 0 0 0 4.243 7.349z"
+     fill="#ffcc00"
+     id="path8"
+     inkscape:label="left eye yellow" />
+  <path
+     d="M47.68 68.166a6 6 0 0 0 4.242 7.348 6 6 0 0 0 7.348-4.242z"
+     fill="url(#cf0d4113-0ad1-4680-9e82-ec4f906e07ce)"
+     transform="translate(10.913 -42.708)"
+     id="path9"
+     inkscape:label="right eye grey" />
+  <path
+     d="M70.183 28.564a6 6 0 0 0-4.242-7.349 6 6 0 0 0-7.349 4.243z"
+     fill="#ffcc00"
+     id="path10"
+     inkscape:label="right eye yellow" />
+  <path
+     d="M35.125 87.594a4.3 4.3 0 0 1 .273-.142c.518-.234.985-.048 1.443.256 7.804 5.19 7.16 6.707 11.812 3.943.619-.368 2.437-.515 3.144-.453 1.432.084 2.146.933 1.296 1.772-.06.08-.157.126-.226.199-.23.244-.5.473-.75.706-4.56 4.26-4.93 4.402-5.845 11.82-.046.371-.272.65-.472.954-.015.023 0 .063-.021.08-.079.06-.164.109-.25.155L34.585 87.932a5.97 5.97 0 0 1 .54-.338zm-1.101.636a4.72 4.72 0 0 0-.26.165c-.461.332-.534.829-.499 1.378.592 9.353 2.228 9.555-2.492 12.2-.627.353-1.664 1.854-1.964 2.497-.644 1.282-.265 2.325.887 2.009.1-.012.187-.074.285-.097.326-.077.66-.197.986-.297 5.97-1.82 6.277-2.067 13.16.849.344.146.699.09 1.061.068.028-.002.055.033.08.022a1.86 1.86 0 0 0 .26-.14L34.586 87.932a5.97 5.97 0 0 0-.562.298z"
+     fill="url(#26432b07-fc05-4ca9-8753-2f6e1916a99b)"
+     transform="translate(10.913 -42.708)"
+     id="path11"
+     inkscape:label="beak" />
+</svg>
