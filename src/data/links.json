@@ -1,0 +1,55 @@
+[
+  {
+    "label": "Join the Discord",
+    "path": "/discord",
+    "icon": "💬",
+    "iconImage": "Discord-Symbol-Blurple.png"
+  },
+  {
+    "label": "GitHub Repository",
+    "path": "/github",
+    "icon": "🐙",
+    "iconImage": "GitHub_Invertocat_White_Clearspace.png"
+  },
+  {
+    "label": "YouTube Channel",
+    "path": "/yt",
+    "icon": "▶️",
+    "iconImage": "yt_icon_red_digital.png"
+  },
+  {
+    "label": "Documentation",
+    "path": "/docs",
+    "icon": "📄"
+  },
+  {
+    "label": "Build Guide",
+    "path": "/build",
+    "icon": "🔧"
+  },
+  {
+    "label": "Bill of Materials",
+    "path": "/bom",
+    "icon": "📋"
+  },
+  {
+    "label": "Buy a Kit — Fabreeko",
+    "path": "/fabreeko-kit",
+    "icon": "🛒"
+  },
+  {
+    "label": "Buy a Kit — West3D",
+    "path": "/west3d-kit",
+    "icon": "🛒"
+  },
+  {
+    "label": "Print Your Own (STL Files)",
+    "path": "/print",
+    "icon": "🖨️"
+  },
+  {
+    "label": "Crooked Crow",
+    "path": "/crooked-crow",
+    "icon": "🐦"
+  }
+]
